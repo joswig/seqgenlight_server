@@ -1,4 +1,4 @@
-# aerie-seqgen-action
+# seqdev-seqgenlight-action
 
 This action compiles F Prime sequence files using seqgen.py, generating binary sequence files compatible with the F Prime sequence file loader and runner.
 
@@ -23,7 +23,7 @@ This action takes a sequence from Aerie and uses the F Prime seqgen.py compiler 
    ```bash
    npm run build
    ```
-   This generates a bundled file at `dist/action.js`, which you can [upload to Aerie](https://nasa-ammos.github.io/aerie-docs/sequencing/actions/).
+   This generates a bundled file at `dist/action.js`, which you can [upload to SeqDev](https://nasa-ammos.github.io/plandev-docs/sequencing/actions/).
 
 3. Configure the action settings in Aerie:
    - `seqgenUrl`: URL of the seqgen web service endpoint
